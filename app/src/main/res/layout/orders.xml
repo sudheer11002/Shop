@@ -1,0 +1,171 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:orientation="vertical">
+
+
+    <androidx.cardview.widget.CardView
+        android:id="@+id/My_Orders_CardView"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="10dp"
+        android:elevation="4dp"
+        tools:targetApi="lollipop">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:baselineAligned="false"
+            android:orientation="horizontal"
+            android:weightSum="1">
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_weight="0.9"
+                android:orientation="vertical">
+
+                <RelativeLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    tools:ignore="UselessParent">
+
+                    <androidx.appcompat.widget.AppCompatImageView
+                        android:id="@+id/My_Orders_Product_Image"
+                        android:layout_width="80dp"
+                        android:layout_height="120dp"
+                        android:layout_margin="12dp"
+                        android:scaleType="centerCrop"
+                        app:srcCompat="@drawable/cactus" />
+
+                    <androidx.appcompat.widget.AppCompatTextView
+                        android:id="@+id/My_Orders_Product_Title"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_marginStart="12dp"
+                        android:layout_marginTop="14dp"
+                        android:layout_marginEnd="14dp"
+                        android:layout_marginBottom="12dp"
+                        android:layout_toEndOf="@+id/My_Orders_Product_Image"
+                        android:text="@string/a_cactus_plant_with_pot"
+                        android:textColor="@color/black"
+                        android:textSize="18sp"
+                        android:textStyle="bold" />
+
+                    <androidx.appcompat.widget.AppCompatTextView
+                        android:id="@+id/My_Orders_Product_Price"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_below="@+id/My_Orders_Product_Title"
+                        android:layout_marginStart="12dp"
+                        android:layout_marginTop="4dp"
+                        android:layout_marginBottom="5dp"
+                        android:layout_marginEnd="12dp"
+                        android:layout_toEndOf="@+id/My_Orders_Product_Image"
+                        android:text="@string/price"
+                        android:textColor="@color/black"
+                        android:textSize="16sp"
+                        tools:ignore="NotSibling" />
+
+                    <androidx.appcompat.widget.AppCompatTextView
+                        android:id="@+id/My_Orders_Product_Discount"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_below="@+id/My_Orders_Product_Title"
+                        android:layout_marginStart="12dp"
+                        android:layout_marginTop="4dp"
+                        android:layout_marginEnd="12dp"
+                        android:layout_marginBottom="5dp"
+                        android:layout_toEndOf="@+id/My_Orders_Product_Price"
+                        android:text="@string/discount"
+                        android:textColor="@color/discount"
+                        android:textSize="16sp" />
+
+                    <androidx.appcompat.widget.AppCompatTextView
+                        android:id="@+id/My_Orders_Product_Quantity"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_below="@+id/My_Orders_Product_Title"
+                        android:layout_marginStart="12dp"
+                        android:layout_marginTop="4dp"
+                        android:layout_marginEnd="10dp"
+                        android:layout_marginBottom="5dp"
+                        android:layout_toEndOf="@+id/My_Orders_Product_Discount"
+                        android:text="@string/quantity"
+                        android:textColor="@color/black" />
+
+
+                    <androidx.appcompat.widget.AppCompatTextView
+                        android:id="@+id/My_Orders_Product_Color"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_below="@+id/My_Orders_Product_Discount"
+                        android:layout_marginStart="12dp"
+                        android:layout_marginTop="8dp"
+                        android:layout_marginEnd="12dp"
+                        android:layout_marginBottom="8dp"
+                        android:layout_toEndOf="@+id/My_Orders_Product_Image"
+                        android:text="@string/black"
+                        android:textColor="@color/description"
+                        android:textSize="14sp"
+                        android:textStyle="bold" />
+
+                    <androidx.appcompat.widget.AppCompatTextView
+                        android:id="@+id/My_Orders_Product_Size"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_below="@+id/My_Orders_Product_Discount"
+                        android:layout_marginStart="12dp"
+                        android:layout_marginTop="8dp"
+                        android:layout_marginEnd="12dp"
+                        android:layout_marginBottom="8dp"
+                        android:layout_toEndOf="@+id/My_Orders_Product_Color"
+                        android:text="@string/medium"
+                        android:textColor="@color/description"
+                        android:textSize="14sp"
+                        android:textStyle="bold" />
+
+                    <androidx.appcompat.widget.AppCompatTextView
+                        android:id="@+id/My_Orders_Product_Quantity_Value"
+                        android:layout_width="80dp"
+                        android:layout_height="20dp"
+                        android:layout_below="@+id/My_Orders_Product_Quantity"
+                        android:layout_marginStart="12dp"
+                        android:layout_marginTop="8dp"
+                        android:layout_marginEnd="10dp"
+                        android:layout_marginBottom="8dp"
+                        android:layout_toEndOf="@+id/My_Orders_Product_Size"
+                        android:text="@string/_1"
+                        android:textColor="@color/description"
+                        android:textAlignment="center"
+                        android:textSize="14sp"
+                        android:textStyle="bold" />
+
+
+                </RelativeLayout>
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="wrap_content"
+                android:layout_height="match_parent"
+                android:layout_weight="0.1"
+                android:gravity="center"
+                android:orientation="vertical">
+
+                <androidx.appcompat.widget.AppCompatImageView
+                    android:layout_width="30dp"
+                    android:layout_height="30dp"
+                    android:layout_margin="4dp"
+                    android:src="@drawable/right_arrow" />
+
+
+            </LinearLayout>
+
+        </LinearLayout>
+    </androidx.cardview.widget.CardView>
+
+
+</LinearLayout>

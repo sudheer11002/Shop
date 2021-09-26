@@ -1,0 +1,65 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:dist="http://schemas.android.com/apk/distribution"
+    xmlns:tools="http://schemas.android.com/tools"
+    package="com.thecoderscrew.shop">
+
+    <uses-permission android:name="android.permission.INTERNET" />
+    <uses-permission android:name="android.permission.RECEIVE_SMS" />
+    <uses-permission android:name="android.permission.READ_SMS" />
+    <uses-permission android:name="android.permission.VIBRATE" />
+    <uses-permission android:name="android.permission.ACCESS_NETWORK_STATE" />
+
+    <dist:module dist:instant="true" />
+
+    <application
+        android:allowBackup="true"
+        android:icon="@mipmap/ic_launcher"
+        android:label="@string/app_name"
+        android:roundIcon="@mipmap/ic_launcher_round"
+        android:supportsRtl="true"
+        android:theme="@style/AppTheme"
+        tools:ignore="AllowBackup,GoogleAppIndexingWarning">
+        <activity android:name="com.thecoderscrew.shop.Activities.SearchResultList"></activity>
+        <activity android:name="com.thecoderscrew.shop.Activities.Contact_us" />
+        <activity android:name="com.thecoderscrew.shop.Activities.OrderDetails" />
+        <activity android:name="com.thecoderscrew.shop.Activities.AddressAndPaymentMode" />
+        <activity android:name="com.thecoderscrew.shop.Activities.AfterPayment" />
+        <activity
+            android:name="com.paytm.pgsdk.PaytmPGActivity"
+            android:configChanges="keyboardHidden|orientation|keyboard"
+            android:screenOrientation="portrait" />
+        <activity android:name="com.thecoderscrew.shop.Activities.Description_2" />
+        <activity android:name="com.thecoderscrew.shop.Activities.MyCart" />
+        <activity android:name="com.thecoderscrew.shop.Activities.Bottles" />
+        <activity android:name="com.thecoderscrew.shop.Activities.Hoodies" />
+        <activity android:name="com.thecoderscrew.shop.Activities.Mugs" />
+        <activity android:name="com.thecoderscrew.shop.Activities.TeeShirt" />
+        <activity android:name="com.thecoderscrew.shop.Activities.Review" />
+        <activity android:name="com.thecoderscrew.shop.Activities.Categories" />
+        <activity android:name="com.thecoderscrew.shop.Activities.MyOrders" />
+        <activity android:name="com.thecoderscrew.shop.Activities.WishList" />
+        <activity android:name="com.thecoderscrew.shop.Activities.Description" />
+        <activity android:name="com.thecoderscrew.shop.Activities.Card" />
+        <activity
+            android:name="com.thecoderscrew.shop.Activities.Home"
+            android:label="@string/title_activity_home" />
+        <activity android:name="com.thecoderscrew.shop.Activities.Splash_screen">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        <activity android:name="com.thecoderscrew.shop.Activities.OTP" />
+        <activity android:name="com.thecoderscrew.shop.Activities.Register" />
+        <activity android:name="com.thecoderscrew.shop.Activities.Login" />
+
+        <receiver android:name="com.thecoderscrew.shop.Classes.ReadSMS">
+            <intent-filter>
+                <action android:name="android.provider.Telephony.SMS_RECEIVED" />
+            </intent-filter>
+        </receiver>
+    </application>
+
+</manifest>

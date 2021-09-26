@@ -1,0 +1,181 @@
+<resources>
+    <string name="app_name">Shop</string>
+
+    <string name="title">Shop</string>
+
+    <string name="login">Login</string>
+
+
+    <string name="username">Username</string>
+    <string name="password">Password</string>
+    <string name="register">Register</string>
+    <string name="sign_up">Sign up</string>
+    <string name="enter_your_mobile_no">Enter your mobile number</string>
+    <string name="verify">Verify</string>
+    <string name="otp">OTP</string>
+    <string name="enter_your_otp">Enter your OTP</string>
+    <string name="title_activity_home">Home</string>
+    <string name="title_home">Home</string>
+    <string name="title_dashboard">Dashboard</string>
+    <string name="title_notifications">Notifications</string>
+    <string name="title_activity_show">Show</string>
+    <string name="category">Category</string>
+    <string name="hot_item">Hot Item</string>
+    <string name="rishabh_kumar">Rishabh Kumar</string>
+    <string name="email">Email ID</string>
+    <string name="last_name">Last Name</string>
+    <string name="first_name">First Name</string>
+    <string name="mobile_no">Mobile No.</string>
+    <string name="submit">Submit</string>
+    <string name="begin_your_journey">Begin your journey !</string>
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+    <string name="cost">Cost</string>
+    <string name="Description">In addition to being a decoration, cactus can also be a health benefit, let\'s buy cactus in our store because now discount 30%.In addition to being a decoration, cactus can also be a health benefit, let\'s buy cactus in our store because now discount 30%. \n In addition to being a decoration, cactus can also be a health benefit, let\'s buy cactus in our store because now discount 30%</string>
+
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="cactus">Cactus</string>
+    <string name="price">₹ 100</string>
+    <string name="price2">₹ 40</string>
+    <string name="buy_now">Buy Now</string>
+    <string name="add_to_cart">Add to Cart</string>
+    <string name="title_activity_main">MainActivity</string>
+    <string name="navigation_drawer_open">Open navigation drawer</string>
+    <string name="navigation_drawer_close">Close navigation drawer</string>
+    <string name="nav_header_title">Android Studio</string>
+    <string name="nav_header_subtitle">android.studio@android.com</string>
+    <string name="nav_header_desc">Navigation header</string>
+    <string name="action_settings">Settings</string>
+    <string name="menu_home">Home</string>
+    <string name="menu_gallery">Gallery</string>
+    <string name="menu_slideshow">Slideshow</string>
+
+    <string name="menu_tools">Tools</string>
+    <string name="menu_share">Share</string>
+    <string name="menu_send">Send</string>
+    <string name="product_details">Product Details\t:-</string>
+    <string name="material">Material\t\t:</string>
+    <string name="neck_type">Neck Type\t\t:</string>
+    <string name="sleeve">Sleeve Type\t\t:</string>
+    <string name="pattern">Pattern\t\t:</string>
+    <string name="_100_pure_cotton">100 % pure cotton</string>
+    <string name="round_neck">Round Neck</string>
+    <string name="printed">Printed</string>
+    <string name="full_sleeve">Full Sleeve</string>
+    <string name="size">Size :</string>
+    <string name="color">Color :</string>
+    <string name="return_policy">If you\'re not satisfied with the product you can return it as this product has  a 10 days return policy.</string>
+    <string name="about_us">About us</string>
+    <string name="myprofile">My Profile</string>
+    <string name="sign_out">Sign Out</string>
+    <string name="wishlist">WishList</string>
+    <string name="categories">Categories</string>
+    <string name="search">What are you looking for ?</string>
+    <string name="empty">Your cart is empty</string>
+    <string name="a_cactus_plant_with_pot">A Cactus plant with pot </string>
+    <string name="black">Black</string>
+    <string name="medium">Medium</string>
+    <string name="discount">60% off</string>
+    <string name="original_price">Price :</string>
+    <string name="discounted_price">Offered :</string>
+    <string name="quantity">Quantity :</string>
+    <string name="price_details">Price Details</string>
+    <string name="price_txt">Price (1 item)</string>
+    <string name="delivery">Delivery :</string>
+    <string name="amount_payable">Amount Payable</string>
+    <string name="discount_txt">Discount :</string>
+    <string name="one">1</string>
+    <string name="Continue">Continue</string>
+    <string name="remove">Remove</string>
+    <string name="add_address">+ Add Address</string>
+    <string name="type_your_address">Type your address here</string>
+    <string name="select_your_own_custom_design">Select your own design :</string>
+    <string name="_1">1</string>
+    <string name="no_active_orders">NO ACTIVE ORDERS</string>
+    <string name="start_shopping">START SHOPPING</string>
+    <string name="_750_ml">750 ml</string>
+    <string name="white">White</string>
+    <string name="capacity">Capacity</string>
+    <string name="see_all">see all</string>
+    <string name="t_shirts">T-Shirts</string>
+    <string name="hoodies">Hoodies</string>
+    <string name="mugs">Mugs</string>
+    <string name="bottles">Bottles</string>
+    <string name="shop_now">SHOP NOW</string>
+    <string name="enter_your_address">Enter your Address</string>
+    <string name="address">Address</string>
+    <string name="next">next</string>
+    <string name="proceed_to_pay">Proceed to Pay</string>
+    <string name="add_new_address">+   Add New Address</string>
+    <string name="make_an_online_payment">Make an online payment</string>
+    <string name="select_payment_mode">Select payment mode :</string>
+    <string name="cash_on_delivery">Cash on delivery</string>
+    <string name="proceed"><![CDATA[Proceed >>]]></string>
+    <string name="email_address">Email Address</string>
+    <string name="area_pincode">PinCode</string>
+    <string name="town_city">Town/City</string>
+    <string name="state">State</string>
+    <string name="edit_address">Edit</string>
+    <string name="delete">Delete</string>
+    <string name="your_order_has_been_placed_nwe_reach_out_to_you_shortly_with_your_order">Your order has been placed.  We reach out to you shortly with Your order</string>
+    <string name="order_detail">Order Detail</string>
+    <string name="beast_teare_half_sleeve_t_shirt">Beast Teare Half sleeve T-shirt</string>
+    <string name="price_399_size_l">Price : 399 | Size :L</string>
+    <string name="order_id_2345678">Order Id: 2345678</string>
+    <string name="date_23_nov_2019">Date: 23,Nov,2019</string>
+    <string name="cancel_order">Cancel Order</string>
+    <string name="_90_4_palace_colony_jail_road_n_mandi_175001_n_himachal_pradesh_india">90/4 palace colony, jail road   Mandi- 175001   Himachal pradesh, India</string>
+    <string name="mobile_175001">Mobile : 175001</string>
+    <string name="vipan_kumar">Vipan Kumar</string>
+    <string name="shipping_detail">Shipping Detail</string>
+    <string name="need_help">Need Help?</string>
+    <string name="delivering">Delivering</string>
+    <string name="order_placed">Order Placed</string>
+    <string name="est_delivery_13_dec_2019">Est. Delivery : 13 dec 2019</string>
+    <string name="quantity_1">Quantity : 1</string>
+    <string name="total_amount">Total Amount:</string>
+    <string name="rs_445">Rs. 445</string>
+    <string name="confirmed">Confirmed</string>
+    <string name="in_progress">In progress</string>
+    <string name="shipping">Shipping</string>
+    <string name="resend">Resend</string>
+    <string name="hello_there">Hello there!</string>
+    <string name="welcome">Welcome</string>
+    <string name="signin_to_continue_with_your_mobile_number">Signin to continue with your mobile number</string>
+    <string name="a_six_digit_otp_will_be_sent_via_sms_to_verify_your_mobile_number">A six digit OTP will be sent via SMS to verify your mobile number.</string>
+    <string name="i_agree_with">I agree with</string>
+    <string name="term_amp_conditions"><![CDATA[Term & Conditions]]></string>
+    <string name="contact_us">Contact us</string>
+    <string name="subject">Subject</string>
+    <string name="write_to_us_here">Write to us here...</string>
+    <string name="send">Send</string>
+    <string name="processing">Processing</string>
+    <string name="status">Status</string>
+    <string name="view_order">View Order</string>
+    <string-array name="Spinner1">
+        <item>Choose an Option</item>
+        <item>S</item>
+        <item>M</item>
+        <item>L</item>
+        <item>XL</item>
+        <item>XXL</item>
+    </string-array>
+    <string-array name="Spinner2">
+        <item>Choose an Option</item>
+        <item>White</item>
+        <item>Black</item>
+        <item>Blue</item>
+        <item>Grey</item>
+    </string-array>
+    <string-array name="Spinner3">
+        <item>1</item>
+        <item>2</item>
+        <item>3</item>
+        <item>4</item>
+        <item>5</item>
+        <item>6</item>
+        <item>7</item>
+        <item>8</item>
+        <item>9</item>
+        <item>10</item>
+    </string-array>
+</resources>

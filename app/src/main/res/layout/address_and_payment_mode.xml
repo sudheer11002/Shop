@@ -1,0 +1,130 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:fitsSystemWindows="true"
+    android:orientation="vertical"
+    tools:context=".Activities.AddressAndPaymentMode">
+
+
+    <androidx.appcompat.widget.Toolbar
+        android:id="@+id/paymnetmode_toolbar"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="@color/colorPrimary"
+        app:titleTextColor="@color/white" />
+
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical">
+
+        <include
+            android:id="@+id/address_exits_page"
+            layout="@layout/address_exists"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:visibility="gone" />
+
+        <LinearLayout
+            android:id="@+id/tohide"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical">
+
+            <com.airbnb.lottie.LottieAnimationView
+                android:id="@+id/lottie"
+                android:layout_width="300dp"
+                android:layout_height="200dp"
+                android:layout_gravity="center"
+                android:layout_marginTop="20dp"
+                android:layout_marginBottom="@dimen/_10sdp"
+                app:lottie_autoPlay="true"
+                app:lottie_fileName="cloud.json"
+                app:lottie_loop="true" />
+
+
+            <androidx.appcompat.widget.AppCompatButton
+                android:id="@+id/add_new_address"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:background="@drawable/button_2"
+                android:paddingStart="@dimen/_12sdp"
+                android:paddingEnd="@dimen/_12sdp"
+                android:text="@string/add_new_address"
+                android:textColor="@color/white" />
+        </LinearLayout>
+
+        <RelativeLayout
+            android:id="@+id/payment_mode"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_alignParentEnd="true"
+            android:layout_marginEnd="0dp"
+            android:layout_marginBottom="@dimen/_8sdp"
+            tools:ignore="ObsoleteLayoutParam">
+
+            <androidx.appcompat.widget.AppCompatTextView
+                android:id="@+id/select_payment_mode"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginStart="@dimen/_12sdp"
+                android:layout_marginTop="@dimen/_40sdp"
+                android:text="@string/select_payment_mode"
+                android:textColor="@color/black"
+                android:textSize="@dimen/_18sdp"
+                android:textStyle="bold" />
+
+            <RadioGroup
+                android:id="@+id/radioGroup"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_below="@id/select_payment_mode">
+
+                <RadioButton
+                    android:id="@+id/radioButton_OnlinePayment"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginStart="@dimen/_12sdp"
+                    android:layout_marginTop="@dimen/_16sdp"
+                    android:paddingStart="@dimen/_14sdp"
+                    android:text="@string/make_an_online_payment"
+                    android:textSize="@dimen/_16sdp"
+                    tools:ignore="RtlSymmetry" />
+
+                <RadioButton
+                    android:id="@+id/radioButton_CashOnDelivery"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginStart="@dimen/_12sdp"
+                    android:layout_marginTop="@dimen/_10sdp"
+                    android:paddingStart="@dimen/_14sdp"
+                    android:text="@string/cash_on_delivery"
+                    android:textSize="@dimen/_16sdp"
+                    tools:ignore="RtlSymmetry" />
+            </RadioGroup>
+        </RelativeLayout>
+
+
+    </LinearLayout>
+
+    <androidx.appcompat.widget.AppCompatButton
+        android:id="@+id/address_submit"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="@dimen/_18sdp"
+        android:layout_marginTop="@dimen/_24sdp"
+        android:layout_marginEnd="@dimen/_18sdp"
+        android:layout_marginBottom="@dimen/_12sdp"
+        android:background="@drawable/button"
+        android:text="@string/submit"
+        android:textColor="@color/white"
+
+
+        />
+
+</LinearLayout>
